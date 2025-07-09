@@ -199,6 +199,10 @@ ul.row {
     text-align: var(--section-footer-align);
 }
 
+.footer {
+    padding: var(--footer-padding);
+}
+
 .footer-address {
     color: var(--text-color);
 }
@@ -207,10 +211,6 @@ ul.row {
     display: block;
 }
 
-.social-link-svg {
+.social-link svg {
     fill: var(--text-color);
-}
-
-.footer {
-    padding: var(--footer-padding);
 }
